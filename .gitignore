@@ -1,0 +1,57 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+*.venv
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and other generated files
+*.log
+*.out
+*.err
+*.pid
+*.gz
+*.zip
+*.tar.gz
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Test files
+*.coverage
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.egg-info/
+.pytest_cache/
+
+# Distribution files
+dist/
+build/
+*.egg
+
+# Secrets
+.env
+*.key
+*.pem
+
+# PyInstaller
+*.spec
+__pyinstaller/
+
+# Profiling data
+*.prof
