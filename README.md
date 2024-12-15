@@ -1,6 +1,7 @@
 # 🤖 Maze Navigation Robot
 
 ## 📚 Table of Contents
+
 1. 📜 Problem Description
 2. 🧩 Problem Formulation
 3. 💡 Proposed Solution
@@ -31,23 +32,27 @@ Imagine a robot placed in a maze with multiple paths, obstacles, and a specific 
   - 🟨 Exit point
 
 ### 🔀 Action Space
-The robot can move in four possible directions:  
-- ⬆️ **Move Up**: (x, y) → (x - 1, y)  
-- ⬇️ **Move Down**: (x, y) → (x + 1, y)  
-- ⬅️ **Move Left**: (x, y) → (x, y - 1)  
-- ➡️ **Move Right**: (x, y) → (x, y + 1)  
+
+The robot can move in four possible directions:
+
+- ⬆️ **Move Up**: (x, y) → (x - 1, y)
+- ⬇️ **Move Down**: (x, y) → (x + 1, y)
+- ⬅️ **Move Left**: (x, y) → (x, y - 1)
+- ➡️ **Move Right**: (x, y) → (x, y + 1)
 
 ### 🎯 Goal State
 
-The robot must achieve the following objectives:  
-1. **✅ Reach the Exit Point:** Navigate from the starting point (`S`) to the exit (`E`).  
-2. **⏱️ Shortest Path:** Identify and follow the optimal path.  
-3. **❌ Avoid Obstacles:** Ensure no collision with blocked cells.  
-4. **⚡ Efficiency:** Minimize total moves and computation time. 
+The robot must achieve the following objectives:
+
+1. **✅ Reach the Exit Point:** Navigate from the starting point (`S`) to the exit (`E`).
+2. **⏱️ Shortest Path:** Identify and follow the optimal path.
+3. **❌ Avoid Obstacles:** Ensure no collision with blocked cells.
+4. **⚡ Efficiency:** Minimize total moves and computation time.
 
 ### 🚧 Constraints
-- The robot cannot pass through obstacles or move outside maze boundaries.  
-- It must operate within predefined computational resource limits.  
+
+- The robot cannot pass through obstacles or move outside maze boundaries.
+- It must operate within predefined computational resource limits.
 
 ## 3. 💡 Proposed Solution
 
@@ -101,12 +106,14 @@ maze_robot/
 ## 6. 🎯 Expected Outcomes
 
 ### 📌 Deliverables
+
 - Functional maze navigation system
 - Visualization of search process
 - Performance metrics
 - Documented solution approach
 
 ### 🎓 Learning Objectives
+
 - Understand search algorithm principles
 - Develop problem-solving skills
 - Apply AI concepts to practical scenario
@@ -134,4 +141,3 @@ maze_robot/
    ```
    python main.py
    ```
-
